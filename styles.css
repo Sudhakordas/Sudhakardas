@@ -1,0 +1,219 @@
+
+/* Adjustments to the profile picture and contact information */
+.profile-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-picture {
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 27px;
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 20px; /* Adjust spacing */
+    text-align: center;
+}
+
+.contact-list {
+    list-style-type: none; /* Remove bullet points */
+    padding-left: 10px; /* Remove left padding */
+    margin-top: 0; /* Remove top margin */
+    margin-bottom: 0; /* Remove bottom margin */
+    color: #000;
+
+}
+
+
+.contact-info p {
+    margin-bottom: 5px; /* Adjust spacing */
+}
+
+.contact-info a {
+    color: #000; /* Change color as needed */
+    text-decoration: none;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.contact-info a:hover {
+    color: #3498db; /* Change hover color as needed */
+}
+
+
+.social-icons {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px; /* Adjust as needed */
+}
+
+.social-icons li:last-child {
+    margin-right: 0; /* Remove margin for the last item */
+}
+
+.social-icons a {
+    color: #0ee263; /* Adjust icon color */
+    font-size: 20px; /* Adjust icon size */
+    text-decoration: none;
+}
+
+
+
+/* Custom scrollbar style */
+.content::-webkit-scrollbar {
+    width: 6px; /* Set a width for the scrollbar */
+}
+
+.content::-webkit-scrollbar-track {
+    background-color: transparent; /* Make scrollbar track transparent */
+}
+
+.content::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Make scrollbar thumb transparent */
+    width: 0; /* Set width to 0 */
+    height: 0; /* Set height to 0 */
+}
+
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 318px; /* Adjust width as needed */
+    background-color: #171817; /* Navy blue background color */
+    padding: 20px;
+    color: #d3d1d4; /* Text color for sidebar */
+    position: fixed; /* Fix the sidebar position */
+    top: 0; /* Position the sidebar at the top */
+    bottom: 0; /* Stretch the sidebar to the bottom */
+    left: 0; /* Position the sidebar at the left */
+    z-index: 1; /* Ensure the sidebar stays on top of other elements */
+    overflow-y: auto; /* Enable vertical scrolling if needed */
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sidebar a {
+    color: #e3e0e0;
+}
+
+.profile-options{
+    text-align: center;
+    color: #0ee263;
+}
+
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    margin-left: 350px; /* Adjust margin to accommodate the fixed sidebar width */
+    background-color: #242728; /* Blue background color */
+    color: #ece6e6; /* Text color for content area */
+    border-left: 5px solid #119133; /* Border between sidebar and content */
+    font-size: large;
+    overflow-y: auto; /* Enable vertical scrolling if needed */
+    text-align: justify;
+    margin-top: 0px;
+    font-family: Calibri;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 4px;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db; /* Link color */
+}
+
+a:hover {
+    color: #0dac42; /* Hover color for links */
+}
+
+.link {
+    color: #2fc036; /* Blue color for "Available link" */
+}
+
+.link:hover {
+    color: #dce7e0; /* Hover color for "Available link" */
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+
+/* Styling for the education section */
+#education {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.education-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.education-table th, .education-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.education-table th {
+    background-color: #302e2e;
+}
+
+
+
+/* Apply green underline to all bold text within the research section */
+#research b {
+    text-decoration: underline;
+    color: rgb(247, 250, 247);
+    font-style: italic;
+}
+
+/* Styling for professional experience */
+.experience {
+    margin-bottom: 20px;
+}
+
+.experience h3 {
+    margin-bottom: 5px;
+}
+
+.experience p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.experience ul {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+}
+
+/* Hide scrollbar */
+.content::-webkit-scrollbar {
+    display: none;
+}
